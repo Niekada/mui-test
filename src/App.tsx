@@ -1,6 +1,6 @@
 import Routes from './routes/Routes'
 import NavBar from './components/NavBar/NavBar'
-import { Rating } from '@mui/material'
+import Rating from './components/Rating/Rating'
 
 const App = () => {
   return (

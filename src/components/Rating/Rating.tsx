@@ -8,11 +8,12 @@ export default function BasicRating() {
 
   return (
     <Box
+      textAlign='center'
       sx={{
-        '& > legend': { mt: 2, textAlign: "center" },
+        '& > legend': { mt: 2 },
       }}
     >
-      <Typography component="legend">Controlled</Typography>
+      <Typography component="legend">How did you like my page?</Typography>
       <Rating
         name="simple-controlled"
         value={value}
