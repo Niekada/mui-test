@@ -1,6 +1,6 @@
 export type MainLayoutRoutes = {
     routes: {
-        path: "/";
+        path: "/" | "/MyPortfolio" | "/AboutMe" | "/Contact";
         Component: () => JSX.Element;
     }[]
 };
