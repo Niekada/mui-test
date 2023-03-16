@@ -8,8 +8,13 @@ export default function BasicRating() {
 
   return (
     <Box
-      textAlign='center'
       sx={{
+        backgroundColor: 'white',
+        textAlign: 'center',
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
         '& > legend': { mt: 2 },
       }}
     >

@@ -23,6 +23,7 @@ const Home = () => {
         <main>
             <Box
             sx={{
+                marginTop: 10,
                 bgcolor: 'background.paper',
                 pt: 8,
                 pb: 6,
