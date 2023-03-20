@@ -39,7 +39,6 @@ const PageButton = styled.button`
         font-family: sans-serif;
         letter-spacing: 5px;
         font-weight: 550;
-        
         color: white;
         text-decoration: none;
     }
